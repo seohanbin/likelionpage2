@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Likelionpage</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <title>Unify | Creative One Page Theme</title>
+
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Web Fonts -->
+  <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/one.style.css">
+
+  <!-- CSS Footer -->
+  <link rel="stylesheet" href="assets/css/footers/footer-v7.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="assets/plugins/animate.css">
+  <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+  <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/plugins/pace/pace-flash.css">
+  <link rel="stylesheet" href="assets/plugins/owl-carousel/owl.carousel.css">
+  <link rel="stylesheet" href="assets/plugins/cube-portfolio/cubeportfolio/css/cubeportfolio.min.css">
+  <link rel="stylesheet" href="assets/plugins/cube-portfolio/cubeportfolio/custom/custom-cubeportfolio.css">
+  <link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings.css" type="text/css" media="screen">
+  <!--[if lt IE 9]><link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css" media="screen"><![endif]-->
+
+  <!-- Style Switcher -->
+  <link rel="stylesheet" href="assets/css/plugins/style-switcher.css">
+
+  <!-- CSS Theme -->
+  <link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color">
+
+  <!-- CSS Customization -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+<body>
+
+    <!--=== Header ===-->
+    <nav class="one-page-header navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="menu-container page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#intro">
+                    <span>U</span>nify
+                    <!-- <img src="assets/img/logo1.png" alt="Logo"> -->
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <div class="menu-container">
+                    <ul class="nav navbar-nav">
+                        <li class="page-scroll home">
+                            <a href="#body">Home</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#about">About Us</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#services">Services</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#news">News</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#contact">Contact</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                Submenu
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="page-scroll"><a href="#body">Home</a></li>
+                                <li class="page-scroll"><a href="#about">About Us</a></li>
+                                <li class="page-scroll"><a href="#services">Services</a></li>
+                                <li class="page-scroll"><a href="#news">News</a></li>
+                                <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
+                                <li class="page-scroll"><a href="#contact">Contact</a></li>
+                            </ul>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="../index.html">Main</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!--=== End Header ===-->
+
+<%= yield %>
+
+    <div class="copyright-section">
+        <p>2015 &copy; All Rights Reserved. Unify Theme by <a target="_blank" href="https://twitter.com/htmlstream">Htmlstream</a></p>
+        <ul class="social-icons">
+            <li><a href="#" data-original-title="Facebook" class="social_facebook rounded-x"></a></li>
+            <li><a href="#" data-original-title="Twitter" class="social_twitter rounded-x"></a></li>
+            <li><a href="#" data-original-title="Goole Plus" class="social_googleplus rounded-x"></a></li>
+            <li><a href="#" data-original-title="Pinterest" class="social_pintrest rounded-x"></a></li>
+            <li><a href="#" data-original-title="Linkedin" class="social_linkedin rounded-x"></a></li>
+        </ul>
+        <span class="page-scroll"><a href="#intro"><i class="fa fa-angle-double-up back-to-top"></i></a></span>
+    </div>
+
+    <!-- JS Global Compulsory -->
+    <script src="assets/plugins/jquery/jquery.min.js"></script>
+    <script src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- JS Implementing Plugins -->
+    <script src="assets/plugins/smoothScroll.js"></script>
+    <script src="assets/plugins/jquery.easing.min.js"></script>
+    <script src="assets/plugins/pace/pace.min.js"></script>
+    <script src="assets/plugins/jquery.parallax.js"></script>
+    <script src="assets/plugins/counter/waypoints.min.js"></script>
+    <script src="assets/plugins/counter/jquery.counterup.min.js"></script>
+    <script src="assets/plugins/owl-carousel/owl.carousel.js"></script>
+    <script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.form.min.js"></script>
+    <script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script>
+    <script src="assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="assets/plugins/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+    <!-- JS Page Level-->
+    <script src="assets/js/one.app.js"></script>
+    <script src="assets/js/forms/login.js"></script>
+    <script src="assets/js/forms/contact.js"></script>
+    <script src="assets/js/plugins/pace-loader.js"></script>
+    <script src="assets/js/plugins/owl-carousel.js"></script>
+    <script src="assets/js/plugins/revolution-slider.js"></script>
+    <script src="assets/js/plugins/cube-portfolio/cube-portfolio-lightbox.js"></script>
+    <script>
+        jQuery(document).ready(function() {
+            App.init();
+            App.initCounter();
+            App.initParallaxBg();
+            LoginForm.initLoginForm();
+            ContactForm.initContactForm();
+            OwlCarousel.initOwlCarousel();
+            RevolutionSlider.initRSfullScreen();
+        });
+    </script>
+
+</body>
+</html>
